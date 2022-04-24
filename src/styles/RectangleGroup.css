@@ -1,0 +1,21 @@
+.rectangle-group {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.computer-rectangle-group {
+    grid-template-columns:  [column1] 28% [column2] 14% [column3] 28% [column4] 28% [column5];
+    grid-template-rows: [row1] 28% [row2] 28% [row3] 14% [row4] 14% [row5] 14% [row6];
+}
+
+.phone-rectangle-group {
+    grid-template-columns:  [column1] 50% [column2] 50% [column3];
+    grid-template-rows: [row1] 16% [row2] 16% [row3] 16% [row4] 16% [row5] 16% [row6] 16% [row7];
+}
